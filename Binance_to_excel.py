@@ -7,9 +7,6 @@ from datetime import timedelta
 api_key = "CHANGE THIS"
 api_secret = "CHANGE THIS"
 
-api_key = "JoawWMV2KONGsGmp294QKBhbtmHPe1kQaj0do2WX4UdjRxKGxNvfNRgMyCwN1nZ9"
-api_secret = "20Dg5FQPtVPZuuMQAVf8lmRES1ofFG31ueZh7SamAtssZJy1lYVOVf37ICyTc2ZS"
-
 client = Client(api_key, api_secret)
 
 def append_df_to_excel(filename, df, sheet_name='Sheet1', startrow=None,
