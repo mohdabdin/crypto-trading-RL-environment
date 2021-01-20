@@ -1,8 +1,9 @@
 import numpy as np
-from binanceEnv import binanceEnv
+from binanceEnv import CryptoTradingEnv
 import random
 
-env = binanceEnv()
+#initialize our environment
+env = CryptoTradingEnv()
  
 for _ in range(0,100):
     random_action = np.random.choice(np.arange(0, 3), p=[0.1, 0.1, 0.8])
