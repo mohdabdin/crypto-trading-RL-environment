@@ -98,7 +98,7 @@ def scrape_hourly_candles(market="BTCUSDT", startingDate = dt(2018,9,14)):
                                 "close": k[:,4]
                                 })
              
-             append_df_to_excel(market+".xlsx", df, startrow=row)
+             append_df_to_excel("/data/"+market+".xlsx", df, startrow=row)
              row+=24
          i+=1
          print("saved "+str(row)+"rows of data")
