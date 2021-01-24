@@ -16,7 +16,7 @@ class CryptoTradingEnv(py_environment.PyEnvironment):
         '''initialize the action spec and observation spec, 
            the two main components of agent will need to navigate the environment'''
         self._action_spec = array_spec.BoundedArraySpec(
-            shape=(4,3,10), dtype=np.int32, minimum=0, maximum=10, name='action')
+            shape=(3,), dtype=np.int32, minimum=0, maximum=10, name='action')
         self._observation_spec = array_spec.BoundedArraySpec(
             shape=(4,5,40), dtype=np.float32, minimum=0, name='observation')
         self._state = np.zeros((4,5,40), dtype=np.float32)
