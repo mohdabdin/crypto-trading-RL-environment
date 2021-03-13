@@ -8,3 +8,6 @@ Currently, the environment hold the following observation and action specs:
   Observation space: (4, 5, 40) where 4 is the number of trading pairs, 5 is the OHCLV values, and 40 is the look back period
   
   
+You can find the full implementation of this project where I go through each detail in this article:
+https://levelup.gitconnected.com/a-complex-reinforcement-learning-crypto-trading-environment-in-python-134f3faf0d7a
+  
